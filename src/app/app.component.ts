@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appTesting';
+
+  Selected: string = "Selecciona Operación";
+  numero1 !: number;
+  numero2 !: number;
+  resultado !: number;
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+  Calcular(){
+    this.resultado = eval(this.numero1 + this.Selected + this.numero2)
+    
+  }
 }

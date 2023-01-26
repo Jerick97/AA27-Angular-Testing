@@ -6,17 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calculadora.component.css']
 })
 export class CalculadoraComponent implements OnInit {
-  Selected: string = "Selecciona Operación";
+  /*Selected: string = "Selecciona Operación";
   numero1 !: number;
   numero2 !: number;
-  resultado !: number;
+  resultado !: number;*/
   constructor() { }
 
   ngOnInit(): void {
   }
-
+/*
   Calcular(){
     this.resultado = eval(this.numero1 + this.Selected + this.numero2)
     
-  }
+  }*/
 }
