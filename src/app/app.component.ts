@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appTesting';
-
+  success : boolean = false;
   Selected: string = "Selecciona Operación";
   numero1 !: number;
   numero2 !: number;

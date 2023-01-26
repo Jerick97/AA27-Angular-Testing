@@ -1,7 +1,7 @@
-<span class="text-2xl text-center font-bold">{{title}} app is running!</span>
+
 
 <div class="mx-auto mt-6 container w-96">
-  
+  <span class="text-2xl text-center font-bold">{{title}} app is running!</span>
   <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
       <form>
           <div class="form-group mb-6">
@@ -80,7 +80,7 @@
           duration-150
           ease-in-out" (click)="Calcular()">Calcular</button>
       </form>
-      <div *ngIf="resultado">
+      <div *ngIf="resultado" class="text-center mt-3">
           <p>Resultado : {{resultado}}</p>
       </div>
   </div>
